@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Project-specific data files (never commit)
+data/
+*.csv
+*.db
+*.db-journal
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# Output files
+outputs/
